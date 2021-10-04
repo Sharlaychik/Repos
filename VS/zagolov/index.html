@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Metanit.com</title>
+</head>
+<body>
+    <h2>Приложение на TypeScript(e)</h2>
+    <script>
+        let message = "Hello TypeScript(ing)!";
+        function hello() {
+            console.log(message);
+        }
+
+        function sum(a, b) {
+            return a + b;
+        }
+
+        const tom = {
+            name: "Tom",
+            age: 37,
+            print() {
+                console.log(`Name: ${this.name}  Age: ${this.age}`);
+            }
+        }
+        function sayHi() {
+            alert("sum, tom.age= "+ sum(tom.age,0));
+            message = "exchenge";
+            }
+
+        setTimeout(sayHi, 1000);
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>

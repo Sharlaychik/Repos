@@ -1,0 +1,3 @@
+D:\Git\Repos\TS_uchu\VS\Server3000proj\Server3000proj\obj\Debug\Server3000proj.njsproj.AssemblyReference.cache
+D:\Git\Repos\TS_uchu\VS\Server3000proj\Server3000proj\obj\Debug\Server3000proj.njsproj.CoreCompileInputs.cache
+D:\Git\Repos\TS_uchu\VS\Server3000proj\Server3000proj\bin\Microsoft.NodejsTools.WebRole.dll
