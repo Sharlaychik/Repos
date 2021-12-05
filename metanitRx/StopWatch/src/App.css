@@ -1,0 +1,60 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  color: aliceblue;
+}
+
+.display {
+  display: none;
+}
+
+.mybtn {
+  margin: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mybtn:focus {
+  box-shadow: none;
+}
+.main-section {
+  background: transparent;
+  max-width: 600px;
+  width: 90%;
+  height: 500px;
+  margin: 30px auto;
+}
+
+.holder {
+  border: 3px solid #285f9931;
+  border-radius: 3px;
+  background: #142d49;
+  background-image: var(--bs-gradient);
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.timer {
+  text-align: center;
+}
+
+.timer,
+span {
+  padding: 20px;
+  font-size: 30px;
+}
+
+.link-project {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 20px;
+}
