@@ -5,6 +5,7 @@
 
 VS/
 .vs/
+.gitignore
 
 # Node artifact files
 node_modules/
