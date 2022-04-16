@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="root"></div>
+    var PIXI = require('pixi.js');
+
+    var renderer = new PIXI.CanvasRenderer(window.innerWidth, window.innerHeight);
+
+    document.body.appendChild(renderer.view);
+
+    var stage = new PIXI.Stage;
+
+    var zombieTexture = PIXI.Texture.fromImage('./src/zombie.png');
+    var zombie = new PIXI.Sprite(zombieTexture);
+
+    zombie.position.x = (window.innerWidth - 150);
+    zombie.position.y = (window.innerHeight - 150);
+
+    stage.addChild(zombie);
+
+    function draw() { renderer.render(stage); requestAnimationFrame(draw); }
+
+    draw();
+
+</body>
+</html>

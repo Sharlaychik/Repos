@@ -31,7 +31,8 @@ function Stopwatch() {
 
   const handleStop = () => {
     if (time !== 0) {
-      setWatchOn(false);
+        setWatchOn(false);
+        setTime(0);
     }
   };
 
@@ -43,19 +44,20 @@ function Stopwatch() {
     }
   };
 
-  const handleWait = () => {
-    if (time !== 0) {
-      setWatchOn(false);
-      setTime(0);
-    }
-  };
-
+    const handleWait = () => {
+        if (time !== 0) {
+            setWatchOn(false);
+            setTime(0);
+            
+        }
+    };
+            
   return (
     <div className="App ">
       <div className="main-section">
         <div className="holder position-absolute top-50 start-50 translate-middle">
           <div className="title">Stopwatch</div>
-          <div className="timer">
+            <div className="timer">
             <Display time={time} />
             <Buttons
               start={handleStart}

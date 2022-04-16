@@ -1,6 +1,9 @@
 import React from 'react';
 
 function Buttons({ start, stop, reset, wait, watchOn }) {
+
+   
+
   return (
     <div>
       <button
@@ -13,12 +16,12 @@ function Buttons({ start, stop, reset, wait, watchOn }) {
         onClick={stop}>
         Stop
       </button>
+      <button className="btn btn-outline-info mybtn btn-lg" onClick={wait}>
+        Weit
+      </button>
       <button className="btn btn-outline-info mybtn btn-lg" onClick={reset}>
         Reset
-      </button>
-      <button className="btn btn-outline-info mybtn btn-lg" onClick={wait}>
-        Clear
-      </button>
+          </button>
     </div>
   );
 }

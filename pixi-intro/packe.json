@@ -1,0 +1,14 @@
+{
+  "name": "pixi-intro",
+  "version": "1.0.0",
+  "description": "pixistart",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "sharlaychik",
+  "license": "ISC",
+  "dependencies": {
+    "pixi.js": "6.2.0"
+  }
+}
