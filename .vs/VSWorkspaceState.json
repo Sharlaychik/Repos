@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Bootstrap_uchu"
+    "\\Bootstrap_uchu",
+    "\\Bootstrap_uchu\\my-app",
+    "\\Bootstrap_uchu\\my-app\\src",
+    "\\Bootstrap_uchu\\my-app\\src\\component",
+    "\\metanit-react"
   ],
   "PreviewInSolutionExplorer": false
 }
