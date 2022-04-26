@@ -2,21 +2,46 @@
 function Test() {
     return (
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">BRAND Test</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarScroll" aria-controls="navbarScroll"
-                        aria-expanded="false" aria-label="Переключатель навигации">
-                            <span class="navbar-toggler-icon"></span>
-                    </button>
-                
+        <div className="conteiner">
+          <h1>Zagolovok djfslkflksdf sdklfj;sdklfj;slkfj ;slkdfj;skldjf;skldfj;l ;slkdfjs;kldfj;asklfj ;slkdjf;aklsfj;askldfj ;lskdjf;asklfjs;ldkfj ;aslkdfj;skldfjs;dlkfj ;skldfjs;kldfjs;dklfj</h1>
+          <p>podzagolovok.</p>
 
+          <div className="row">
+              <div className="col-md-6"> sldkjf sdjfaf nskf jslj kfnslj kfnls jkdfn alsj kdnfl sjkdfn aslk jdfn lasjkfnlsjkdnflskjdfn alskjfnlsdjkfnskjdfn kjnkn
+              </div>
+              <div className="col-md-6">kjnkn
+              </div>
+          </div>
 
-                
-  </div>
-</nav>
-       
+          <div className="row">
+              <div className="col-md-2">kjnkn
+              </div>
+              <div className="col-md-2">kjnkn
+              </div>
+              <div className="col-md-2">kjnkn
+              </div>
+              <div className="col-md-2">kjnkn
+              </div>
+              <div className="col-md-2">kjnkn
+              </div>
+              <div className="col-md-2">kjnkn
+              </div>
+          </div>
+
+          <div className="row">
+              <div className="col-md-3">kjnkn
+              </div>
+              <div className="col-md-3">kjnkn
+              </div>
+              <div className="col-md-2">kjnkn
+              </div>
+              <div className="col-md-2">kjnkn
+              </div>
+              <div className="col-md-2">kjnkn
+              </div>
+          </div>
+    </div>
+    
     );
 }
 
