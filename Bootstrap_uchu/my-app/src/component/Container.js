@@ -1,10 +1,10 @@
 //import logo from './logo.svg';
-import './Conteiner.css';
+import './Container.css';
 import Navbar from './Navbar';
 import Carousel from './Carousel';
 //import Test from './Test';
 
-function Conteiner() {
+function Container() {
   return (
     <div>
     <Navbar />
@@ -13,4 +13,4 @@ function Conteiner() {
   );
 }
 
-export default Conteiner;
+export default Container;

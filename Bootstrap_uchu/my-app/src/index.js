@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Conteiner from './component/Conteiner';
+import Container from './component/Container';
 //import Navbar from './component/Navbar';
 //import Test from './component/Test';
 
@@ -9,6 +9,6 @@ import Conteiner from './component/Conteiner';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <Conteiner />
+        <Container />
   </React.StrictMode>
 );
