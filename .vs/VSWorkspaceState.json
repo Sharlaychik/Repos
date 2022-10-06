@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Bootstrap_uchu",
-    "\\Bootstrap_uchu\\my-app",
-    "\\Bootstrap_uchu\\my-app\\src",
-    "\\Bootstrap_uchu\\my-app\\src\\component",
-    "\\metanit-react"
+    "\\metanit-angular\\purchaseapp",
+    "\\metanit-angular\\purchaseapp\\src",
+    "\\metanit-react\\TestIntMag"
   ],
+  "SelectedNode": "\\metanit-react",
   "PreviewInSolutionExplorer": false
 }
