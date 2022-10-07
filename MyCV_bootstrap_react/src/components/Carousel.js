@@ -1,22 +1,8 @@
+import './Carousel.css';
 
 function Carousel(){
   return(
-    <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
-      <div className="carousel-inner">
-        <div className="carousel-item active">
-          <img src="/MyCV_bootstrap_react/src/photo/GubkaBob.jpg" className="d-block w-100" alt="0"></img>
-        </div>
-        <div className="carousel-item">
-          <img src="..." className="d-block w-100" alt="..."></img>
-        </div>
-        <div className="carousel-item">
-          <img src="..." className="d-block w-100" alt="..."></img>
-        </div>
-      </div>
-    </div>  
-    
-    /*
-      <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleIndicators" className="carousel slide carousel-fade" data-bs-ride="carousel">
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -24,13 +10,13 @@ function Carousel(){
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="/MyCV_bootstrap_react/src/photo/GubkaBob.jpg" className="d-block w-100" alt="GubkaBob"></img>
+            <img src="./photo/GubkaBob.jpg" className="d-block w-100" alt="GubkaBob"></img>
           </div>
           <div className="carousel-item">
-            <img src="/MyCV_bootstrap_react/src/photo/CatFun.png" className="d-block w-100" alt="CatFun"></img>
+            <img src="./photo/CatFun.png" className="d-block w-100" alt="CatFun"></img>
           </div>
           <div className="carousel-item">
-            <img src="/MyCV_bootstrap_react/src/photo/work.jpg" className="d-block w-100" alt="work"></img>
+            <img src="./photo/work.jpg" className="d-block w-100" alt="work"></img>
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -42,7 +28,6 @@ function Carousel(){
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-      */
   );
 }
 export default Carousel;

@@ -8,7 +8,6 @@ function MyCV() {
         <div id='MycvLeftCol' className='col-md-4'>
           <div id='MyPhoto' className='row'>
             <div className='col-md-12'>
-              <h1>A</h1>
               <Carousel /> 
             </div>
           </div>
