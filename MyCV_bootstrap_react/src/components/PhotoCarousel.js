@@ -1,6 +1,6 @@
-import './Carousel.css';
+//import './PhotoCarousel.css';
 
-function Carousel(){
+function PhotoCarousel(){
   return(
       <div id="carouselExampleIndicators" className="carousel slide carousel-fade" data-bs-ride="carousel">
         <div className="carousel-indicators">
@@ -8,7 +8,7 @@ function Carousel(){
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div className="carousel-inner">
+        <div className="carousel-inner rounded-circle">
           <div className="carousel-item active">
             <img src="./photo/GubkaBob.jpg" className="d-block w-100" alt="GubkaBob"></img>
           </div>
@@ -30,4 +30,4 @@ function Carousel(){
       </div>
   );
 }
-export default Carousel;
+export default PhotoCarousel;
