@@ -1,15 +1,43 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React, {useState, useEffect} from 'react';
+import ReactDOM from 'react-dom';
 //import './index.css';
 import MyCV from './MyCV';
+import Testing from './components/Testing';
 
+/*
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Testing />
     <MyCV />
   </React.StrictMode>
 );
+*/
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+ReactDOM.render(
+  <div>
+  <Testing />
+  <MyCV />
+  </div>,
+  document.getElementById('root')
+);
+  
+
+/*
+function Testing() {
+  const [counter, setCounter] = useState(0);
+  
+  useEffect(() => {
+    alert("its working" + counter)
+  });
+
+  function increment(){
+    setCounter(counter + 1);
+  }
+
+  return <div>
+    <p>{counter}</p>
+    <button onClick={increment}>increment</button>
+  </div>
+}
+*/
