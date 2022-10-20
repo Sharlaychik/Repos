@@ -1,11 +1,14 @@
+import React, {useState, useEffect} from 'react';
+
 
 function Testing() {
-// eslint-disable-next-line no-undef  
   const [counter, setCounter] = useState(0);
-  
+
   useEffect(() => {
-    alert("its working" + counter)
-  });
+    if (counter >= 1 ) {
+      alert("its working" + counter)
+    }
+  }, [counter]);
 
   function increment(){
     setCounter(counter + 1);
