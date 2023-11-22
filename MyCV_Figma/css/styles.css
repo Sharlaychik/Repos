@@ -1,0 +1,281 @@
+body {
+    background: #F6F6FA;
+    padding: 40px 40px 40px 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.wrapper {
+    background: #ffffff;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* main content */
+
+.main-content{
+    padding: 88px 80px 40px 80px;
+    box-sizing: border-box;
+    
+}
+
+/* sidebar */
+
+.sidebar {
+    background: #E0EBFE;
+    padding: 40px 0px 40px 0px;
+    box-sizing: border-box;
+    width: 370px;
+}
+
+.sidebar-content {
+    padding: 40px 40px 40px;
+    box-sizing: border-box;
+}
+
+/* Contacts */
+
+.contacts-title {
+    color: #161D2A;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.contacts-type {
+    color: #161D2A;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 8px;
+}
+
+.contacts-link {
+    color: #2979FF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+
+.contacts-item {
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+.contacts-conteiner {
+    margin-bottom: 40px;
+}
+
+/* Skills conteiner */
+
+.skills-conteiner {
+    margin-bottom: 40px;
+}
+
+.skills-title {
+    color: #161D2A;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.skills-list {
+    padding-left: 24px;
+}
+
+.skills-list-item {
+    color: #161D2A;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.soft-skills-conteiner {
+    margin-bottom: 40px;
+}
+
+.soft-skills-title {
+    color: #161D2A;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.soft-skills-list {
+    padding-left: 24px;
+}
+
+.soft-skills-list-item {
+    color: #161D2A;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* Main content */
+
+.my-profession {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.my-name {
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+.my-descr {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.my-info {
+    margin-bottom: 40px;
+}
+
+/* My projects */
+
+.my-projects-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.my-projects-item {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.my-projects-list {
+    padding-left: 16px;
+}
+
+.my-projects-item-link {
+    color: #005FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+
+.my-projects-item-tech {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.my-projects-container {
+    margin-bottom: 40px;
+}
+
+/* Work exp */
+
+.work-experience-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.work-experience-company {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.company-name {
+    color: #6D9BF5;
+}
+
+.work-experience-period {
+    color: #A8A8A8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-bottom: 8px;
+}
+
+.work-experience-period-separator {
+    color: #000;
+}
+
+.work-experience-duties-list {
+    padding-left: 16px;
+}
+
+.work-experience-duties-item {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.work-experience-container {
+    margin-bottom: 12px;
+}
+
+/* Education */
+
+.education-container {
+    margin-top: 40px;
+}
+
+.education-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 8px;
+
+}
+
+.education-university {
+    color: #6D9BF5;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.education-position {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
