@@ -21,10 +21,4 @@ function Testing() {
   </div>
 }
 
-TRN_215/75_R17,5_M788_ALL_BS
-TRN_235/75_R17,5_M729_D_BS
-TRN_265/70_R17,5_M729_D_BS
-TRN_285/70_R19,5_M729_D_BS
-
-
 export default Testing;
